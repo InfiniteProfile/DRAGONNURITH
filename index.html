@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07051a">
+<title>DRAGONNŪRITH – Infinite Baby Dragons</title>
+<meta name="description" content="An endless universe of baby dragons. Every one has its own name, species, ability and story.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sky" aria-hidden="true"></div>
+<header>
+  <div class="brand">
+    <span class="egg" aria-hidden="true"></span>
+    <div><h1>DRAGONNŪRITH</h1><p>Infinite baby dragons. One magical universe.</p></div>
+  </div>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Search name, species, element, ability or ID (DN-000123)" autocomplete="off" spellcheck="false" aria-label="Search dragons">
+    <button id="favBtn" type="button" aria-pressed="false">♥ Favorites <b id="favN">0</b></button>
+  </div>
+</header>
+<main>
+  <div id="feed"></div>
+  <div id="res" class="page" hidden></div>
+</main>
+<dialog id="dlg" aria-label="Dragon profile"></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
